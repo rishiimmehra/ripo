@@ -69,10 +69,7 @@ body{
 #menu-bar{
 	z-index: 2;	
 }
-.change-bg{
-	width: 550px;
-    height: 540px;
-}
+
 .change .bar{
     background-color: white;
     
