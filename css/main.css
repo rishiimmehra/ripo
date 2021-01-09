@@ -1,10 +1,7 @@
 body{
     background: rgba(28, 28, 32, 0.93);
 }
-#menu-bar{
-	display: flex;
-	justify-content: flex-end;
-}
+
 #menu{
 	width: 70px;
 	height: 70px;
@@ -54,9 +51,9 @@ body{
 	transition: 0.3s ease;
 	display: none;
 }
-.menu-bg{
+.menu-bg, #menu-bar{
 	top: 0;
-	left: 0;
+	right: 0;
     position: absolute;
     
 }
