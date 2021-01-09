@@ -1,7 +1,10 @@
 body{
     background: rgba(28, 28, 32, 0.93);
 }
-
+#menu-bar{
+	display: flex;
+	justify-content: flex-end;
+}
 #menu{
 	width: 70px;
 	height: 70px;
