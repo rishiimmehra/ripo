@@ -57,7 +57,19 @@ body{
     position: absolute;
     
 }
-
+.change-bg{
+	width: 550px;
+    height: 540px;
+}
+.menu-bg{
+	z-index: 1;
+	width: 0;
+	height: 0;
+	margin: 30px 30px 20px 20px;
+	background: #583DFF;
+	border-radius: 25px;
+	transition: 0.3s ease;
+}
 #menu-bar{
 	z-index: 2;	
 }
