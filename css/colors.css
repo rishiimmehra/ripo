@@ -5,14 +5,17 @@
     color: #a4a5c3;
 }
 .body-min-dark{
-    color: #5e5f7836;
+    color: rgba(94, 95, 120, 0.9);
 }
-.head{
-    color: #ffffff;
+.body-min-light{
+    color: rgba(164, 165, 195, 0.9);
 }
-.head{
-    color: #ffffff;
+.dis-head{
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
 }
+.dis-numbers{
+    }
 .head{
     color: #ffffff;
 }
