@@ -15,10 +15,22 @@
     -webkit-text-stroke: 1px #fff;
 }
 .dis-numbers{
-    }
-.head{
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(94, 95, 120, 0.9);
+}
+.dis-service-text{
+    color: #a4a5c3;
+}
+.view-project{
     color: #ffffff;
 }
-.head{
-    color: #ffffff;
+
+.body-bg{
+    background-color: rgba(28, 28, 32, 0.93);
+}
+.item-bg{
+    background-color: #583dff;
+}
+.underline-bg{
+    background-color: #00ff85;
 }
