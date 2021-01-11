@@ -17,21 +17,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="body-bg">
     <header>
         <div id="menu-bar">
-			<div id="menu" class="rm-menu" onclick="onClickMenu()">
-				<div id="bar1" class="bar"></div>
-				<div id="bar2" class="bar"></div>
-				<div id="bar3" class="bar"></div>
-			</div>
+            <div class="bar-box">
+                <div id="menu" class="rm-menu item-bg" onclick="onClickMenu()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+            </div>
 			<ul class="nav" id="nav">
-				<li><a class="head" href="#">Home</a></li>
-				<li><a class="head" href="#">Work</a></li>
-				<li><a class="head" href="#">About</a></li>
-			</ul>
-		</div>
-		<div class="menu-bg" id="menu-bg"></div>
+                <div class="profile">
+                    <a href="http://"><img src="./assets/image/Profile.svg" alt="Logo"></a>
+                </div>
+
+                <li><a class="menu" href="#">Work</a></li>
+				<li><a class="menu" href="#">Home</a></li>
+                <li><a class="menu" href="#">About</a></li>
+                
+                <div>
+                    <div></div>
+                    <a href="http://">Start a project</a>
+                </div>
+            </ul>
+        </div>
+        
+		<div class="menu-bg item-bg" id="menu-bg"></div>
     </header>
 
 <script src="./js/app.js"></script>    

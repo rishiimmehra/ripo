@@ -1,7 +1,68 @@
-body{
-    background: rgba(28, 28, 32, 0.93);
+/*Font*/
+
+.menu{
+	font-weight: 900;
+  	text-transform: uppercase;
+	line-height: 1.05em;
+	list-style: none;
+	text-decoration: none;
+	letter-spacing: 5px;;
+}
+.head{
+ 	font-weight: 900;
+ 	text-transform: uppercase;
+ 	margin-bottom: 25px;
+  	line-height: 1.05em;
+}
+.body{
+	font-weight: 900;
+ 	text-transform: uppercase;
+ 	margin-bottom: 25px;
+  	line-height: 1.05em;
+}
+.body-min-dark{
+	font-weight: 900;
+ 	text-transform: uppercase;
+ 	margin-bottom: 25px;
+  	line-height: 1.05em;
+}
+.body-min-light{
+	font-weight: 900;
+ 	text-transform: uppercase;
+ 	margin-bottom: 25px;
+  	line-height: 1.05em;
+}
+.dis-head{
+	font-weight: 900;
+ 	text-transform: uppercase;
+ 	margin-bottom: 25px;
+  	line-height: 1.05em;
+}
+.dis-numbers{
+	font-weight: 900;
+ 	text-transform: uppercase;
+ 	margin-bottom: 25px;
+  	line-height: 1.05em;
+}
+.dis-service-text{
+	font-weight: 900;
+ 	text-transform: uppercase;
+ 	margin-bottom: 25px;
+  	line-height: 1.05em;
+}
+.view-project{
+	font-weight: 900;
+ 	text-transform: uppercase;
+ 	margin-bottom: 25px;
+  	line-height: 1.05em;
 }
 
+/*Layout*/
+
+.bar-box {
+    display: flex;
+    justify-content: flex-end;
+}
 #menu{
 	width: 70px;
 	height: 70px;
@@ -9,7 +70,6 @@ body{
 	cursor: pointer;
 }
 .rm-menu{
-    background: #583DFF;
     border-radius: 27px;
     display: flex;
     flex-direction: column;
@@ -34,17 +94,6 @@ body{
 #bar3{
 	transform: translateY(4px);
 }
-.nav li a{
-	color: #fff;
-	text-decoration: none;
-}
-.nav li a:hover{
-	font-weight: bold;
-}
-.nav li{
-	list-style: none;
-	padding: 16px 0;
-}
 .nav{
 	padding: 0;
 	margin: 0 20px;
@@ -54,8 +103,7 @@ body{
 .menu-bg, #menu-bar{
 	top: 0;
 	right: 0;
-    position: absolute;
-    
+	position: absolute;
 }
 .change-bg{
 	width: 550px;

@@ -1,5 +1,8 @@
 /*Font*/
 
+.menu{
+    font-size: 9vh;
+}
 .head{
     font-size: 7.5vh;
 }
@@ -24,3 +27,6 @@
 .view-project{
     font-size: 18px;
 }
+
+/*Layout*/
+

@@ -1,3 +1,7 @@
+.menu{
+    color: transparent;
+    -webkit-text-stroke: 1px #ffffff;
+}
 .head{
     color: #ffffff;
 }
@@ -12,7 +16,7 @@
 }
 .dis-head{
     color: transparent;
-    -webkit-text-stroke: 1px #fff;
+    -webkit-text-stroke: 1px #ffffff;
 }
 .dis-numbers{
     color: transparent;
