@@ -1,0 +1,26 @@
+/*Font*/
+
+.head{
+    font-size: 7.5vh;
+}
+.body{
+    font-size: 18px;
+}
+.body-min-dark{
+    font-size: 14px;
+}
+.body-min-light{
+    font-size: 14px;
+}
+.dis-head{
+    font-size: 10vw;
+}
+.dis-numbers{
+    font-size: 40vh;
+}
+.dis-service-text{
+    font-size: 16px;
+}
+.view-project{
+    font-size: 18px;
+}
