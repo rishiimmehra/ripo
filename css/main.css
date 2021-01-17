@@ -66,7 +66,7 @@
 #menu{
 	width: 70px;
 	height: 70px;
-	margin: 30px 30px 20px 20px;
+	margin: 4vh 4vh;
 	cursor: pointer;
 }
 .rm-menu{
@@ -96,30 +96,33 @@
 }
 .nav{
 	padding: 0;
-	margin: 0 20px;
 	transition: 0.3s ease;
 	display: none;
+
 }
 #menu-bg, #menu-bar{
 	top: 0;
 	right: 0;
 	position: absolute;
 }
-.change-bg{
-	width: 550px;
-    height: 540px;
-}
-#menu-bg{
+.menu-bg{
 	z-index: 1;
-	width: 0;
-	height: 0;
-	margin: 30px 30px 20px 20px;
+	width: 0px;
+	height: 0px;
+	margin: 4vh 4vh;
 	background: #583DFF;
 	border-radius: 25px;
 	transition: 0.3s ease;
 }
+.change-bg{
+	width: 35%;
+	height: 93vh;
+}
 #menu-bar{
-	z-index: 2;	
+	z-index: 2;
+	width: 35%;
+	height: 93vh;
+	margin: 4vh 4vh;
 }
 
 .change .bar{
@@ -137,5 +140,6 @@
 }
 .change{
     display: flex;
-    flex-direction: column;
+	flex-direction: column;
+	justify-content: center;
 }
