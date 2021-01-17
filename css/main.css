@@ -100,7 +100,7 @@
 	transition: 0.3s ease;
 	display: none;
 }
-.menu-bg, #menu-bar{
+#menu-bg, #menu-bar{
 	top: 0;
 	right: 0;
 	position: absolute;
@@ -109,7 +109,7 @@
 	width: 550px;
     height: 540px;
 }
-.menu-bg{
+#menu-bg{
 	z-index: 1;
 	width: 0;
 	height: 0;
