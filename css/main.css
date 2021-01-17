@@ -66,15 +66,19 @@
 #menu{
 	width: 70px;
 	height: 70px;
-	margin: 4vh 4vh;
 	cursor: pointer;
 }
+.profile{
+	display: flex;
+	justify-content: center;
+}
+
 .rm-menu{
     border-radius: 27px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+	align-items: center;
 }
 .bar{
 	height: 3px;
@@ -122,7 +126,7 @@
 	z-index: 2;
 	width: 35%;
 	height: 93vh;
-	margin: 4vh 4vh;
+	margin: 4vh;
 }
 
 .change .bar{
