@@ -3,6 +3,9 @@
 .menu{
     font-size: 9vh;
 }
+.new-project{
+    font-size: 12px;
+}
 .head{
     font-size: 7.5vh;
 }
@@ -29,4 +32,6 @@
 }
 
 /*Layout*/
-
+.new-project-btn{
+    rotate: 90;
+}

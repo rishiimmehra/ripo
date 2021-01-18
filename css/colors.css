@@ -2,6 +2,9 @@
     color: transparent;
     -webkit-text-stroke: 1px #ffffff;
 }
+.new-project{
+    color: #ffffff;
+}
 .head{
     color: #ffffff;
 }
@@ -37,4 +40,5 @@
 }
 .underline-bg{
     background-color: #00ff85;
+    
 }
